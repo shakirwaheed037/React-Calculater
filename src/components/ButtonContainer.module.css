@@ -1,0 +1,70 @@
+.buttonContainer {
+  display: grid;
+  grid-template-columns: repeat(4, 60px);
+  grid-gap: 10px;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.buttonContainer {
+  display: grid;
+  grid-template-columns: repeat(4, 60px);
+  grid-gap: 10px;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.button {
+  height: 60px;
+  font-size: 1.3rem;
+  cursor: pointer;
+  border-radius: 8px;
+  border: none;
+  background-color: #333;
+  color: white;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #555;
+}
+
+/* Clear button style */
+.clear {
+  height: 60px;
+  font-size: 1.3rem;
+  cursor: pointer;
+  border-radius: 8px;
+  border: none;
+  background-color: #e74c3c; /* red color */
+  color: white;
+  transition: background-color 0.3s ease;
+}
+
+.clear:hover {
+  background-color: #c0392b;
+}
+
+/* Equals button style */
+.equals {
+  height: 60px;
+  width: 270px;
+  font-size: 2rem;
+  cursor: pointer;
+  border-radius: 8px;
+  border: none;
+  background-color: #27ae60; /* green color */
+  color: black;
+  transition: background-color 0.3s ease;
+}
+
+.equals:hover {
+  background-color: #1e8449;
+}
+
+
+.button:hover {
+  background-color: #5a4c4c;
+}
+
+

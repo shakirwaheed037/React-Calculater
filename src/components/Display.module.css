@@ -1,0 +1,8 @@
+.display {
+  width: 92%;
+  padding: 12px;
+  font-size: 1.5rem;
+  border: 2px solid #ccc;
+  border-radius: 6px;
+  box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.1);
+}
